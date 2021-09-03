@@ -1,9 +1,10 @@
 import React from "react";
-import "./Nav.css";
+import "../Components/Nav.css";
+import Icon from "../pics/icon.png";
 
 export default function Nav() {
   return (
-    <div>
+    <div className="navbar">
       <input
         id="page-nav-toggle"
         class="main-navigation-toggle"
@@ -42,7 +43,9 @@ export default function Nav() {
         </ul>
       </nav>
       <div>
-        <h1 className="BH-nav-icon"></h1>
+        <a href="/">
+          <img className="BH-nav-icon" src={Icon} />
+        </a>
       </div>
     </div>
   );

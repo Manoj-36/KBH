@@ -1,0 +1,24 @@
+@font-face {
+  font-family: MADE Kenfolg;
+  src: url(MADE\ Kenfolg\ PERSONAL\ USE.otf);
+}
+.BH {
+  background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),
+    url("../pics/mhostel.jpg");
+  position: relative;
+  height: 570px;
+
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+.BH-main {
+  padding-top: 15%;
+}
+.BH-main-head {
+  font-family: MADE Kenfolg;
+  font-size: 7vw;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 10px;
+  padding-left: 10%;
+}
