@@ -8,6 +8,7 @@ export default function Main() {
       <Nav />
       <div className="BH-main">
         {/* <img src={Mhostel} /> */}
+        <h3 className="BH-sub-head">WELCOME TO </h3>
         <h1 className="BH-main-head">KIT BOYS HOSTEL</h1>
       </div>
     </div>

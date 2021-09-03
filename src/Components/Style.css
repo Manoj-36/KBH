@@ -1,18 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
 @font-face {
   font-family: MADE Kenfolg;
   src: url(MADE\ Kenfolg\ PERSONAL\ USE.otf);
 }
+.start {
+  font-family: "Montserrat", sans-serif;
+  color: crimson;
+}
 .BH {
-  background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.473)),
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
     url("../pics/mhostel.jpg");
   position: relative;
   height: 570px;
 
-  background-size: auto;
+  background-size: 1270px 700px;
   background-repeat: no-repeat;
 }
 .BH-main {
   padding-top: 15%;
+}
+.BH-sub-head {
+  font-family: "Ubuntu", sans-serif;
+  color: #fff;
+  letter-spacing: 15px;
+  text-align: center;
 }
 .BH-main-head {
   font-family: MADE Kenfolg;
@@ -21,4 +33,39 @@
   color: #fff;
   letter-spacing: 10px;
   padding-left: 10%;
+}
+/* HW section */
+.HW-head {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3vw;
+  text-align: center;
+  /* margin-left: 5%; */
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  border-radius: 10px;
+  background-color: #ebebeb;
+  padding: 30px 90px 30px 90px;
+  margin: 5% 10% 2% 10%;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+  align-item: center;
+  border-radius: 5px;
+}
+.HW-pic {
+  width: 5%;
+}
+/* Rules */
+
+.R-head {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3vw;
+  text-align: center;
 }

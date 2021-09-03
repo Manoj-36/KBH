@@ -2,6 +2,7 @@ import "./Components/Style.css";
 import Main from "./Components/Main";
 import Nav from "./Components/Nav";
 import Hwarden from "./Components/Hwarden";
+import Rules from "./Components/Rules";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
           <Route exact path="/">
             <Main />
             <Hwarden />
+            <Rules />
           </Route>
         </Switch>
         <Switch>
