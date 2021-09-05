@@ -77,11 +77,41 @@
   width: 5%;
 }
 /* Rules */
-
-.R-head {
-  font-family: "Montserrat", sans-serif;
-  font-size: 3vw;
-  text-align: center;
+.Rules {
+  background-color: #130901;
 }
+.R-head {
+  color: #fff;
+  text-align: center;
+  font-size: 3vw;
+  padding: 2%;
+}
+
+.R-grid-container {
+  display: grid;
+  align-content: center;
+  grid-template-columns: auto auto;
+  grid-gap: 5%;
+  background-color: #130901;
+  padding: 0% 20% 5% 20%;
+}
+
+.R-grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20%;
+  height: 300px;
+  font-size: 30px;
+  border-radius: 10px;
+}
+/* .R-do {
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url("../pics/facilities/do.png");
+  background-size: 500px 300px;
+}
+.R-dont {
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url("../pics/facilities/dont.png");
+} */
 
 /* Hostels */
