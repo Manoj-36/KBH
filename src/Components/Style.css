@@ -5,6 +5,7 @@
   src: url(MADE\ Kenfolg\ PERSONAL\ USE.otf);
 }
 .start {
+  padding: 0 1% 0 1%;
   font-family: "Montserrat", sans-serif;
   color: crimson;
 }
@@ -18,7 +19,7 @@
   background-repeat: no-repeat;
 }
 .BH-main {
-  padding-top: 13%;
+  padding-top: 10%;
 }
 .BH-sub-head {
   font-family: "Ubuntu", sans-serif;
@@ -31,7 +32,7 @@
   font-size: 7vw;
   text-align: center;
   color: #fff;
-  letter-spacing: 10px;
+  letter-spacing: 11px;
   padding-left: 10%;
 }
 .BH-btn {
@@ -79,10 +80,14 @@
 /* Rules */
 .Rules {
   background-color: #130901;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
 }
 .R-head {
   color: #fff;
-  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  /* text-align: center; */
   font-size: 3vw;
   padding: 2%;
 }
@@ -90,28 +95,32 @@
 .R-grid-container {
   display: grid;
   align-content: center;
-  grid-template-columns: auto auto;
-  grid-gap: 5%;
+  grid-template-columns: auto;
   background-color: #130901;
-  padding: 0% 20% 5% 20%;
+  padding: 0% 15% 5% 15%;
 }
 
-.R-grid-container > div {
+.R-do {
   background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20%;
-  height: 300px;
-  font-size: 30px;
+  /* text-align: center; */
+  padding: 3%;
+  height: 350px;
+  font-size: 1rem;
   border-radius: 10px;
 }
 /* .R-do {
-  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     url("../pics/facilities/do.png");
-  background-size: 500px 300px;
+  background-size: 100px 30px;
+  background-repeat: no-repeat;
+  position: relative;
 }
 .R-dont {
-  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     url("../pics/facilities/dont.png");
+  background-size: 100px 30px;
+  background-repeat: no-repeat;
+  position: relative;
 } */
 
 /* Hostels */

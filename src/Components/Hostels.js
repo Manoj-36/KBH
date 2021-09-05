@@ -6,7 +6,9 @@ import Mh from "../pics/mhostel.jpg";
 export default function Hostels() {
   return (
     <div className="H">
-      <h2 className="H-main-head">All Hostel Blocks</h2>
+      <h2 className="H-main-head">
+        <span className="start">|</span>All Hostel Blocks
+      </h2>
       <main className="page-content">
         <div className="card">
           <div className="content">
