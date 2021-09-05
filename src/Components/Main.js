@@ -11,6 +11,11 @@ export default function Main() {
         <h3 className="BH-sub-head">WELCOME TO </h3>
         <h1 className="BH-main-head">KIT BOYS HOSTEL</h1>
       </div>
+      <div className="BH-btn">
+        <button className="BH-btn-a" title="Room Booking">
+          Apply
+        </button>
+      </div>
     </div>
   );
 }

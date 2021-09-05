@@ -14,11 +14,11 @@
   position: relative;
   height: 570px;
 
-  background-size: 1270px 700px;
+  background-size: 100vw 50vw;
   background-repeat: no-repeat;
 }
 .BH-main {
-  padding-top: 15%;
+  padding-top: 13%;
 }
 .BH-sub-head {
   font-family: "Ubuntu", sans-serif;
@@ -33,6 +33,20 @@
   color: #fff;
   letter-spacing: 10px;
   padding-left: 10%;
+}
+.BH-btn {
+  display: flex;
+  justify-content: center;
+}
+.BH-btn-a {
+  cursor: pointer;
+  width: 15%;
+  height: 3vw;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(5, 149, 216);
 }
 /* HW section */
 .HW-head {
@@ -69,3 +83,5 @@
   font-size: 3vw;
   text-align: center;
 }
+
+/* Hostels */

@@ -1,6 +1,7 @@
 import "./Components/Style.css";
 import Main from "./Components/Main";
 import Nav from "./Components/Nav";
+import Hostels from "./Components/Hostels";
 import Hwarden from "./Components/Hwarden";
 import Rules from "./Components/Rules";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -14,6 +15,7 @@ function App() {
           <Route exact path="/">
             <Main />
             <Hwarden />
+            <Hostels />
             <Rules />
           </Route>
         </Switch>
