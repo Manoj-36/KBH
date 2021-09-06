@@ -14,8 +14,8 @@ export default function Nav() {
         <svg class="icon--menu-toggle" viewBox="0 0 60 30">
           <g class="icon-group">
             <g class="icon--menu">
-              <path d="M 6 5 L 54 5" />
-              <path d="M 6 30 L 54 30" />
+              <path d="M 6 1 L 54 1" />
+              <path d="M 6 25 L 54 25" />
               {/* <path d="M 6 30 L 54 30" /> */}
             </g>
             <g class="icon--close">

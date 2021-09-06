@@ -21,14 +21,14 @@
   top: 0;
   background-color: rgb(255, 255, 255);
   width: 100%;
-  height: 75px;
+  height: 65px;
 }
 @font-face {
   font-family: Atteron;
   src: url(AtteronPersonalUse-PKrBx.otf);
 }
 .BH-nav-icon {
-  width: 15vw;
+  width: 13vw;
   padding: 1%;
 }
 body {

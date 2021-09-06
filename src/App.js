@@ -14,9 +14,9 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Main />
-            <Hwarden />
             <Hostels />
             <Rules />
+            <Hwarden />
           </Route>
         </Switch>
         <Switch>

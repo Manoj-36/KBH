@@ -8,6 +8,9 @@ export default function Rules() {
       </h2>
       <div class="R-grid-container">
         <div className="R-do">
+          <h2>
+            <span className="start">|</span>Do's
+          </h2>{" "}
           <ul>
             <li> Loudly speaking/talking</li>
             <li> Sitting unnecessarily anywhere in campus/hostel.</li>
@@ -23,9 +26,29 @@ export default function Rules() {
               from hostel authority.
             </li>
             <li>Disturbance to others students.</li>
-          </ul>
+          </ul>{" "}
         </div>
-        <div className="R-do"></div>
+        <div className="R-dont">
+          <h2>
+            <span className="start">|</span>Dont's
+          </h2>
+          <ul>
+            <li> Loudly speaking/talking</li>
+            <li> Sitting unnecessarily anywhere in campus/hostel.</li>
+            <li> Ragging or torturing any student mentally or physically.</li>
+            <li> Misbehavior with the hostel staff.</li>
+            <li> Quarreling with each others.</li>
+            <li> Cooking in the room.</li>
+            <li> Playing outdoor games in the hostel.</li>
+            <li> Improper dress while taking meals.</li>
+            <li>Late coming in the hostel (without permission).</li>
+            <li>
+              Changing allotted room and the furniture without prior permission
+              from hostel authority.
+            </li>
+            <li>Disturbance to others students.</li>
+          </ul>{" "}
+        </div>
       </div>
     </div>
   );
