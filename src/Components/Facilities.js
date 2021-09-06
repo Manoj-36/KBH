@@ -1,6 +1,6 @@
 import React from "react";
 import Wifi from "../pics/facilities/wifi1.gif";
-import Finger1 from "../pics/facilities/finger1.gif";
+import Finger1 from "../pics/facilities/finger12.gif";
 import Washing from "../pics/facilities/washing1.gif";
 import Hotw from "../pics/facilities/hotwater.png";
 import Cctv from "../pics/facilities/cam.png";

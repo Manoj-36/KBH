@@ -94,12 +94,11 @@
 
 .R-grid-container {
   display: grid;
-  height: 50vw;
+  height: 35vw;
   align-content: center;
   grid-template-columns: auto auto;
   grid-gap: 5%;
   background-color: #130901;
-  padding: 5px;
 }
 
 .R-do {
@@ -168,7 +167,7 @@
 }
 .FA-F-icons-finger {
   /* margin: 15% 10% 010%; */
-  width: 40%;
+  width: 50%;
 }
 .FA-F-icons-washing {
   width: 55%;
