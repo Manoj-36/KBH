@@ -1,6 +1,7 @@
 import "./Components/Style.css";
 import Main from "./Components/Main";
 import Nav from "./Components/Nav";
+import Facilities from "./Components/Facilities";
 import Hostels from "./Components/Hostels";
 import Hwarden from "./Components/Hwarden";
 import Rules from "./Components/Rules";
@@ -17,6 +18,7 @@ function App() {
             <Hostels />
             <Rules />
             <Hwarden />
+            <Facilities />
           </Route>
         </Switch>
         <Switch>
