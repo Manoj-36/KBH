@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@800&display=swap");
 @font-face {
   font-family: MADE Kenfolg;
   src: url(MADE\ Kenfolg\ PERSONAL\ USE.otf);
@@ -7,7 +8,7 @@
 .start {
   padding: 0 1% 0 1%;
   font-family: "Montserrat", sans-serif;
-  color: crimson;
+  color: rgb(97, 241, 97);
 }
 .BH {
   background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
@@ -150,19 +151,19 @@
 
 .FA-grid-container > div {
   background-color: #fff;
-  border: 1px solid black;
+  border: 2px solid rgb(97, 241, 97);
   text-align: center;
   margin: 3%;
   border-radius: 10px;
 }
 .FA-i6 {
-  font-size: 1.5rem;
+  font-size: 2vw;
   text-align: center;
-  padding-top: 10%;
+  padding-top: 40%;
   color: rgb(55, 117, 233);
 }
 .FA-F-icons-wifi {
-  margin-top: 5%;
+  margin: 8% 0 10% 0;
   width: 25%;
 }
 .FA-F-icons-finger {
@@ -174,7 +175,7 @@
 }
 .FA-F-icons-hotw {
   width: 25%;
-  margin: 20% 0 10% 0;
+  margin: 15% 0 2% 0;
 }
 .FA-F-icons-cctv {
   margin-top: 5%;
@@ -185,4 +186,54 @@
 
   padding: 5%;
   font-size: 1.2vw;
+}
+/* ------------------------------------------------------main 1-------- */
+.M {
+  display: flex;
+  margin: 10% 0 10% 0;
+}
+.M-c {
+  width: 60%;
+  height: 30vw;
+  border-radius: 50%;
+  background-color: rgb(97, 241, 97);
+  margin-left: 53%;
+  margin-top: -70%;
+}
+.M-hh {
+  margin-left: 3%;
+  color: rgb(77, 245, 77);
+}
+.M-head {
+  margin-bottom: 5%;
+  color: #424242;
+  padding: 1% 0 0 35%;
+  font-size: 4vw;
+  font-family: MADE Kenfolg;
+  letter-spacing: 5px;
+}
+
+.M-img {
+  margin: -5% 15% 0 33%;
+  width: 70%;
+  height: 35vw;
+  border-radius: 50%;
+  border: 2px solid rgb(97, 241, 97);
+}
+.M-info {
+  font-size: 1.1vw;
+  margin: 0 0 0 35%;
+}
+.M-i-head {
+  font-family: MADE Kenfolg;
+}
+.M-btn {
+  width: 35%;
+  height: 30px;
+  margin: 6% 0 0 35%;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgb(125, 248, 125);
+  /* border: 2px solid rgb(97, 241, 97); */
+  border: none;
 }

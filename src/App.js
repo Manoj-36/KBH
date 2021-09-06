@@ -5,20 +5,21 @@ import Facilities from "./Components/Facilities";
 import Hostels from "./Components/Hostels";
 import Hwarden from "./Components/Hwarden";
 import Rules from "./Components/Rules";
+import Main1 from "./Components/Main1";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
     <div>
-      {/* <Nav /> */}
+      <Nav />
       <Router>
         <Switch>
           <Route exact path="/">
-            <Main />
-            <Hostels />
+            <Main1 />
             <Rules />
-            <Hwarden />
+            <Hostels />
             <Facilities />
+            {/* <Main1 /> */}
           </Route>
         </Switch>
         <Switch>

@@ -1,6 +1,6 @@
 import React from "react";
 import Wifi from "../pics/facilities/wifi1.gif";
-import Finger1 from "../pics/facilities/finger12.gif";
+import Finger1 from "../pics/facilities/finger123.gif";
 import Washing from "../pics/facilities/washing1.gif";
 import Hotw from "../pics/facilities/hotwater.png";
 import Cctv from "../pics/facilities/cam.png";
@@ -25,14 +25,11 @@ export default function Facilities() {
         </div>
         <div>
           <img className="FA-F-icons-washing" src={Washing} />
-          <p className="FA-F-info">
-            Loundry service avibale in
-            <br /> MCA
-          </p>
+          <p className="FA-F-info">Loundry service avibale in MCA Block</p>
         </div>
         <div>
           <img className="FA-F-icons-hotw" src={Hotw} />
-          <p className="FA-F-info">Hot water is avilabale</p>
+          <p className="FA-F-info">Hot water facilitie is avilabale</p>
         </div>
         <div className="FA-i5">
           <img className="FA-F-icons-cctv" src={Cctv} />
