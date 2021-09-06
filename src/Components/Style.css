@@ -5,10 +5,18 @@
   font-family: MADE Kenfolg;
   src: url(MADE\ Kenfolg\ PERSONAL\ USE.otf);
 }
+body {
+  scroll-behavior: smooth;
+}
 .start {
   padding: 0 1% 0 1%;
   font-family: "Montserrat", sans-serif;
   color: rgb(97, 241, 97);
+}
+.start1 {
+  padding: 0 1% 0 1%;
+  font-family: "Montserrat", sans-serif;
+  color: crimson;
 }
 .BH {
   background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
@@ -146,7 +154,17 @@
   grid-template-columns: auto auto auto auto;
   grid-gap: 3%;
   background-color: #fff;
-  padding: 10px;
+  padding: 3% 10% 0 10%;
+}
+@media (min-width: 600px) {
+  .FA-grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 800px) {
+  .FA-grid-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 .FA-grid-container > div {
@@ -197,7 +215,7 @@
   height: 30vw;
   border-radius: 50%;
   background-color: rgb(97, 241, 97);
-  margin-left: 53%;
+  margin-left: 43%;
   margin-top: -70%;
 }
 .M-hh {
@@ -207,14 +225,14 @@
 .M-head {
   margin-bottom: 5%;
   color: #424242;
-  padding: 1% 0 0 35%;
-  font-size: 4vw;
+  padding: 1% 0 0 30%;
+  font-size: 4.5vw;
   font-family: MADE Kenfolg;
   letter-spacing: 5px;
 }
 
 .M-img {
-  margin: -5% 15% 0 33%;
+  margin: -5% 15% 0 26%;
   width: 70%;
   height: 35vw;
   border-radius: 50%;
@@ -222,7 +240,7 @@
 }
 .M-info {
   font-size: 1.1vw;
-  margin: 0 0 0 35%;
+  margin: 0 0 0 30%;
 }
 .M-i-head {
   font-family: MADE Kenfolg;
@@ -230,10 +248,12 @@
 .M-btn {
   width: 35%;
   height: 30px;
-  margin: 6% 0 0 35%;
+  margin: 6% 0 0 30%;
   cursor: pointer;
   border-radius: 5px;
   background-color: rgb(125, 248, 125);
-  /* border: 2px solid rgb(97, 241, 97); */
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: rgb(88, 87, 87);
   border: none;
 }

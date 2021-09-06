@@ -1,6 +1,6 @@
 import React from "react";
 import "../Components/Nav.css";
-import Icon from "../pics/icon1.png";
+import Icon from "../pics/icon2.gif";
 
 export default function Nav() {
   return (

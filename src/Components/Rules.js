@@ -9,7 +9,7 @@ export default function Rules() {
       <div class="R-grid-container">
         <div className="R-do">
           <h2>
-            <span className="start">|</span>Do's
+            <span className="start1">|</span>Do's
           </h2>{" "}
           <ul>
             <li> Loudly speaking/talking</li>
@@ -30,7 +30,7 @@ export default function Rules() {
         </div>
         <div className="R-dont">
           <h2>
-            <span className="start">|</span>Dont's
+            <span className="start1">|</span>Dont's
           </h2>
           <ul>
             <li> Loudly speaking/talking</li>

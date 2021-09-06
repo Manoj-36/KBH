@@ -15,7 +15,6 @@ export default function Hostels() {
             <h2 className="title">Hemavathi Block</h2>
             <p className="copy">
               This block only for the 1 st year Students , PU & BSC Students
-              also include Lateral Entery Students
             </p>
             <button className="btn"> View More</button>
           </div>
@@ -33,8 +32,7 @@ export default function Hostels() {
           <div className="content">
             <h2 className="title">MCA Block</h2>
             <p className="copy">
-              This Block includes the Final Year, MBA & 3rd Year Students and
-              Mess in the ground Floor
+              This Block includes the Final Year, MBA & 3rd Year Students
             </p>
             <button className="btn">View More</button>
           </div>
