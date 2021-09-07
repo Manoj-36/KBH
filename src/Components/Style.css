@@ -346,3 +346,59 @@ body {
 .Hc-info {
   padding: 10% 15% 0 10%;
 }
+
+@media only screen and (max-width: 800px) {
+  /* For tablets: */
+}
+@media only screen and (max-width: 500px) {
+  /* For mobile phones: */
+  .M {
+    margin: 25% 0 20% 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .M-head {
+    display: flex;
+    flex-direction: column;
+    font-size: 3.5rem;
+    padding-left: 10%;
+  }
+  .M-s-head {
+    font-size: 3.5rem;
+    margin-bottom: 3%;
+  }
+  .M-hh {
+    margin-top: 3%;
+    margin-left: 0%;
+    font-size: 3.5rem;
+  }
+  .M-info {
+    font-size: 1rem;
+    margin: 0% 10% 0 10%;
+    padding-right: 30%;
+  }
+  .M-c {
+    margin-top: -53%;
+    width: 75%;
+    height: 15rem;
+    margin-left: 18%;
+    border-radius: 15px;
+    background-color: #13090100;
+    border: 4px solid #4df54d;
+  }
+  .M-img {
+    margin: 13% 0 4% 10%;
+    width: 80%;
+    height: 15rem;
+    border-radius: 15px;
+  }
+  .M-btn {
+    margin: 10% 0 5% 10%;
+    height: 2.5rem;
+  }
+
+  /* -------------Rules------------- */
+  .R-head {
+    font-size: 1.3rem;
+  }
+}
