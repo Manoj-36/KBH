@@ -236,7 +236,7 @@ body {
   width: 70%;
   height: 35vw;
   border-radius: 50%;
-  border: 2px solid rgb(97, 241, 97);
+  /* border: 2px solid rgb(97, 241, 97); */
 }
 .M-info {
   font-size: 1.1vw;
@@ -254,6 +254,38 @@ body {
   background-color: rgb(125, 248, 125);
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
-  color: rgb(88, 87, 87);
+  color: rgb(44, 44, 44);
   border: none;
+}
+/* -----------------------------------------------------Footer-------------------- */
+
+.Fo {
+  margin-top: -15%;
+}
+
+.Fo-grid-container {
+  margin-top: -6%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+
+  background: rgb(17, 242, 46);
+  background: linear-gradient(
+    90deg,
+    rgba(17, 242, 46, 1) 0%,
+    rgba(142, 209, 252, 1) 0%,
+    rgba(1, 208, 132, 1) 85%
+  );
+}
+
+.Fo-grid-container > div {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid black;
+  height: 100px;
+  text-align: center;
+  font-size: 30px;
+}
+.Fo-img {
+  width: 20%;
 }

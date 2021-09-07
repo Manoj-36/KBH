@@ -6,6 +6,7 @@ import Hostels from "./Components/Hostels";
 import Hwarden from "./Components/Hwarden";
 import Rules from "./Components/Rules";
 import Main1 from "./Components/Main1";
+import Footer from "./Components/Footer";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
             <Rules />
             <Hostels />
             <Facilities />
-            {/* <Main1 /> */}
+            <Footer />
           </Route>
         </Switch>
         <Switch>
