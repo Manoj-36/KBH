@@ -7,6 +7,7 @@ import Hwarden from "./Components/Hwarden";
 import Rules from "./Components/Rules";
 import Main1 from "./Components/Main1";
 import Footer from "./Components/Footer";
+import Hc from "./Components/Hc";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route exact path="/">
             <Main1 />
             <Rules />
+            <Hc />
             <Hostels />
             <Facilities />
             <Footer />

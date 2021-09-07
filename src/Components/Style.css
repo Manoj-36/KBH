@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 @font-face {
   font-family: MADE Kenfolg;
   src: url(MADE\ Kenfolg\ PERSONAL\ USE.otf);
@@ -97,7 +98,7 @@ body {
   color: #fff;
   font-family: "Montserrat", sans-serif;
   /* text-align: center; */
-  font-size: 3vw;
+  font-size: 2vw;
   padding: 2%;
 }
 
@@ -145,8 +146,9 @@ body {
   margin: 3%;
 }
 .FA-head {
+  padding: 2%;
   font-family: "Montserrat", sans-serif;
-  font-size: 3vw;
+  font-size: 2vw;
 }
 
 .FA-grid-container {
@@ -215,40 +217,43 @@ body {
   height: 30vw;
   border-radius: 50%;
   background-color: rgb(97, 241, 97);
-  margin-left: 43%;
-  margin-top: -70%;
+  margin-left: 33%;
+  margin-top: -75%;
 }
 .M-hh {
   margin-left: 3%;
   color: rgb(77, 245, 77);
 }
+.M-s-head {
+  font-size: 4vw;
+}
 .M-head {
   margin-bottom: 5%;
   color: #424242;
-  padding: 1% 0 0 30%;
+  padding: 1% 0 0 20%;
   font-size: 4.5vw;
   font-family: MADE Kenfolg;
   letter-spacing: 5px;
 }
 
 .M-img {
-  margin: -5% 15% 0 26%;
-  width: 70%;
+  margin: -5% 15% 0 12%;
+  width: 73%;
   height: 35vw;
   border-radius: 50%;
   /* border: 2px solid rgb(97, 241, 97); */
 }
 .M-info {
   font-size: 1.1vw;
-  margin: 0 0 0 30%;
+  margin: 0 0 0 20%;
 }
 .M-i-head {
   font-family: MADE Kenfolg;
 }
 .M-btn {
   width: 35%;
-  height: 30px;
-  margin: 6% 0 0 30%;
+  height: 35px;
+  margin: 6% 0 0 20%;
   cursor: pointer;
   border-radius: 5px;
   background-color: rgb(125, 248, 125);
@@ -260,7 +265,8 @@ body {
 /* -----------------------------------------------------Footer-------------------- */
 
 .Fo {
-  margin-top: -15%;
+  margin-top: -17%;
+  /* margin-bottom: 10%; */
 }
 
 .Fo-grid-container {
@@ -275,17 +281,68 @@ body {
     90deg,
     rgba(17, 242, 46, 1) 0%,
     rgba(142, 209, 252, 1) 0%,
-    rgba(1, 208, 132, 1) 85%
+    rgba(77, 245, 77, 1) 90%
   );
 }
 
 .Fo-grid-container > div {
   background-color: rgba(255, 255, 255, 0);
-  border: 1px solid black;
-  height: 100px;
-  text-align: center;
-  font-size: 30px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 48px;
+  padding-left: 10%;
 }
 .Fo-img {
-  width: 20%;
+  width: 30%;
+  margin-left: 15%;
+}
+.Fo-f-info {
+  margin-left: 15%;
+  font-size: 1rem;
+}
+.Fo-df {
+  margin-top: -2%;
+  background: rgb(17, 242, 46);
+  background: linear-gradient(
+    90deg,
+    rgba(17, 242, 46, 1) 0%,
+    rgba(142, 209, 252, 1) 0%,
+    rgba(77, 245, 77, 1) 90%
+  );
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  padding: 5%;
+}
+.Fo-l {
+  width: 90%;
+  background-color: #130901;
+  border-left: #130901;
+}
+
+/* ------------------------------------------Hostel community----------- */
+.Hc {
+  padding: 2%;
+  display: flex;
+}
+.Hc-head {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2vw;
+}
+.Hc-img {
+  margin: 20% 0 0 5%;
+  border-radius: 10px;
+  width: 80%;
+  border: 1px solid #000;
+}
+.Hc-ib {
+  margin: 0 0 10% 10%;
+  margin-top: -60%;
+  width: 80%;
+  height: 21vw;
+  border-radius: 10px;
+  border: 5px solid #4df54d;
+}
+.Hc-info {
+  padding: 10% 15% 0 10%;
 }

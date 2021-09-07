@@ -15,7 +15,7 @@ export default function Footer() {
         <defs>
           <linearGradient id="gradient">
             <stop offset="5%" stop-color="#8ed1fcff"></stop>
-            <stop offset="95%" stop-color="#00d084ff"></stop>
+            <stop offset="95%" stop-color="#4df54d"></stop>
           </linearGradient>
         </defs>
         <path
@@ -29,11 +29,43 @@ export default function Footer() {
       <div class="Fo-grid-container">
         <div>
           <img className="Fo-img" src={Icon} />
-          <h4>Kalpatharu Institute of Technology Boys Hostel Tiptur </h4>
+          <div className="Fo-f-info">
+            <p>
+              Kalpatharu Boys Hostel
+              <br />
+              Tiptur-572 201, Tumkur District <br />
+              Karnataka, India{" "}
+            </p>
+            <p>Phone No : 7483368980</p>
+            <p>Mobile.NO : 7483368980</p>
+            <p>Email : bjmanoj7@gmail.com</p>
+          </div>
         </div>
-        <div>dqerbqergqer</div>
-        <div>saverv</div>
-        <div>wrgwqr wgiqw grwhir g</div>
+        <div>
+          <p>About Us</p>
+          <p>Contact Us</p>
+          <p>Alumni </p>
+          <p>Photo Gallery</p>
+        </div>
+        <div>
+          <p>Hemavathi Block</p>
+          <p>Kaveri Block</p>
+          <p>MCA Block</p>
+          <p>Mess</p>
+          <p>Mess Community</p>
+        </div>
+        <div>
+          <p>Admission</p>
+          <p>Events</p>
+          <p>Placement Info.</p>
+        </div>
+      </div>
+      <div className="Fo-df">
+        <hr className="Fo-l" />
+        <p>
+          {" "}
+          © CopyRight 2021 | KIT Boys Hostel | Developed By Manoj & Sudhanva
+        </p>
       </div>
     </div>
   );

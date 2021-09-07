@@ -21,7 +21,8 @@ body {
 }
 .H-main-head {
   /* text-align: center; */
-  font-size: 3vw;
+  padding: 2%;
+  font-size: 2vw;
   font-family: "Montserrat", sans-serif;
 }
 .page-content {

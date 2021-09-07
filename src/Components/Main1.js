@@ -7,11 +7,12 @@ export default function Main1() {
       <div className="M">
         <div className="M-mh">
           <h1 className="M-head">
-            KIT Boys<span className="M-hh">Hostel</span>
+            <span className="M-s-head">Kalpatharu</span> Boy's
+            <span className="M-hh">Hostel</span>
           </h1>
           <p className="M-info">
-            <span className="M-i-head">Welcome</span> to <br /> Kalpatharu
-            institute of Technology Boys Hostel with most affordable Rooms
+            <span className="M-i-head">Welcome</span> to <br /> Kalpatharu Boy's
+            Hostel with most affordable Rooms
             <br /> comparing to offside the campus
           </p>
           <button className="M-btn">Apply</button>
