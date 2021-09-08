@@ -111,6 +111,17 @@ body {
   background-color: #130901;
 }
 
+/* @media (max-width: 600px) {
+  .R-grid-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (min-width: 800px) {
+  .R-grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+} */
+
 .R-do {
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.8);
@@ -158,7 +169,7 @@ body {
   background-color: #fff;
   padding: 3% 10% 0 10%;
 }
-@media (min-width: 600px) {
+@media (max-width: 600px) {
   .FA-grid-container {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -353,35 +364,35 @@ body {
 @media only screen and (max-width: 500px) {
   /* For mobile phones: */
   .M {
-    margin: 25% 0 20% 0;
+    margin: 30% 0 20% 0;
     display: flex;
     flex-direction: column;
   }
   .M-head {
     display: flex;
     flex-direction: column;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     padding-left: 10%;
   }
   .M-s-head {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     margin-bottom: 3%;
   }
   .M-hh {
     margin-top: 3%;
     margin-left: 0%;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
   .M-info {
-    font-size: 1rem;
+    font-size: 0.7rem;
     margin: 0% 10% 0 10%;
     padding-right: 30%;
   }
   .M-c {
     margin-top: -53%;
-    width: 75%;
-    height: 15rem;
-    margin-left: 18%;
+    width: 79%;
+    height: 12rem;
+    margin-left: 16%;
     border-radius: 15px;
     background-color: #13090100;
     border: 4px solid #4df54d;
@@ -389,16 +400,93 @@ body {
   .M-img {
     margin: 13% 0 4% 10%;
     width: 80%;
-    height: 15rem;
+    height: 12rem;
     border-radius: 15px;
   }
   .M-btn {
     margin: 10% 0 5% 10%;
-    height: 2.5rem;
+    height: 2rem;
   }
 
   /* -------------Rules------------- */
   .R-head {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+  }
+  .R-grid-container {
+    margin: 5% 0 5% 0;
+    width: 100%;
+    height: fit-content;
+  }
+  .R-do {
+    font-size: 0.5rem;
+  }
+  .R-dont {
+    font-size: 0.8rem;
+  }
+  /* --------------------facilities------------- */
+  .FA-head {
+    font-size: 1.5rem;
+  }
+  .FA-F-info {
+    font-size: 1rem;
+  }
+  .FA-i6 {
+    font-size: 1rem;
+  }
+  .FA-F-icons-washing {
+    width: 95%;
+  }
+  .FA-F-icons-hotw {
+    width: 35%;
+    margin-bottom: 25%;
+  }
+  .FA-F-icons-cctv {
+    width: 30%;
+    margin-bottom: 10%;
+  }
+  .FA-F-icons-finger {
+    width: 65%;
+  }
+  .FA-F-icons-wifi {
+    width: 40%;
+  }
+  /* ---------------Footer----------- */
+
+  .Fo {
+    margin-top: 10%;
+  }
+  .Fo-grid-container {
+    padding: 5px;
+  }
+  .Fo-grid-container > div {
+    font-size: 0.6rem;
+  }
+  .Fo-f-info {
+    font-size: 0.6rem;
+  }
+  .Fo-img {
+    width: 60%;
+  }
+  .Fo-df {
+    font-size: 0.8rem;
+  }
+  /* --------------------hostel committee------ */
+
+  .Hc-head {
+    font-size: 1.5rem;
+  }
+  .Hc {
+    display: flex;
+    margin: 5% 0 5% 0;
+    flex-direction: column;
+  }
+  .Hc-img {
+    margin: 10% 0 0 5%;
+  }
+  .Hc-ib {
+    height: 12rem;
+  }
+  .Hc-info {
+    padding: 5%;
   }
 }

@@ -227,3 +227,10 @@ h1 {
     transform: translateY(0);
   }
 }
+
+@media only screen and (max-width: 500px) {
+  .BH-nav-icon {
+    width: 7rem;
+    margin: 6%;
+  }
+}
