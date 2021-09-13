@@ -9,6 +9,7 @@ import Main1 from "./Components/Main1";
 import Footer from "./Components/Footer";
 import Hc from "./Components/Hc";
 import Block1 from "./Components/Hostels/Block1";
+import Sharing from "./Components/Hostels/sharing";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
@@ -29,6 +30,8 @@ function App() {
         <Switch>
           <Route exact path="/Hemavathi-block">
             <Block1 />
+            <Sharing />
+            <Footer />
           </Route>
         </Switch>
       </Router>

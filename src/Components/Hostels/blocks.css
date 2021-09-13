@@ -1,1 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
+.B1 {
+  margin-top: 10%;
+}
+.B1-img {
+  width: 65%;
+  border-radius: 10px;
+}
+.B1-img-sec {
+  margin: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.B1-head {
+  font-size: 2rem;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.Share-head {
+  font-size: 1.3rem;
+  font-family: "Montserrat", sans-serif;
+}
+.Share-img-1,
+.Share-img-2 {
+  width: 25%;
+  height: 50px;
+}
+.Share-img-3 {
+  width: 35%;
+  height: 50px;
+}
+
+.Share-grid-container {
+  display: grid;
+  height: 400px;
+  align-content: center;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background-color: #fff;
+  padding: 13rem;
+}
+
+.Share-grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000;
+  text-align: center;
+  padding: 2rem;
+  font-size: 1rem;
+}
