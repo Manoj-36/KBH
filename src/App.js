@@ -8,7 +8,7 @@ import Rules from "./Components/Rules";
 import Main1 from "./Components/Main1";
 import Footer from "./Components/Footer";
 import Hc from "./Components/Hc";
-import Hemavathi from "./Hostels/Hemavathi";
+import Block1 from "./Components/Hostels/Block1";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
@@ -27,13 +27,8 @@ function App() {
           </Route>
         </Switch>
         <Switch>
-          <Route exact path="/Warden">
-            <Hwarden />
-          </Route>
-        </Switch>
-        <Switch>
           <Route exact path="/Hemavathi-block">
-            <Hemavathi />
+            <Block1 />
           </Route>
         </Switch>
       </Router>

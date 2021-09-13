@@ -277,11 +277,14 @@ body {
 
 .Fo {
   margin-top: -17%;
+  left: 0;
+  right: 0;
   /* margin-bottom: 10%; */
 }
 
 .Fo-grid-container {
   margin-top: -6%;
+  width: 100%;
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-gap: 10px;
@@ -298,7 +301,7 @@ body {
 
 .Fo-grid-container > div {
   background-color: rgba(255, 255, 255, 0);
-  border: 1px solid rgba(0, 0, 0, 0);
+  border: 1px solid rgba(192, 137, 137, 0);
   font-size: 1rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 48px;
