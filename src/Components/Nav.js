@@ -42,7 +42,7 @@ export default function Nav() {
           </li>
         </ul>
       </nav>
-      <div>
+      <div className="BH-nva-sec">
         <a href="/">
           <img className="BH-nav-icon" src={Icon} />
         </a>

@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 .H1 {
-  margin-top: 10%;
+  margin: 10% 0% 0 0;
 }
 .H1-img-sec {
   display: flex;
@@ -8,8 +8,9 @@
   align-items: center;
 }
 .H1-img {
-  margin: 15% 5% 5% 5%;
+  margin: 2% 5% 5% 5%;
   width: 70%;
+  border-radius: 10px;
   background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(73, 54, 54, 0.55));
 }
 .H1-head {

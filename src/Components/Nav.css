@@ -19,14 +19,16 @@
   overflow: hidden;
   position: fixed;
   top: 0;
+  left: 0;
   background-color: rgb(255, 255, 255);
-  width: 100%;
+  width: 150%;
   height: 65px;
 }
 @font-face {
   font-family: Atteron;
   src: url(AtteronPersonalUse-PKrBx.otf);
 }
+
 .BH-nav-icon {
   width: 13vw;
   padding: 1%;
