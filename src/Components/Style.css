@@ -20,7 +20,7 @@ body {
   color: crimson;
 }
 .BH {
-  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(73, 54, 54, 0.55)),
     url("../pics/mhostel.jpg");
   position: relative;
   height: 570px;

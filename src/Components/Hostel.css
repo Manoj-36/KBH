@@ -39,7 +39,7 @@ body {
   display: flex;
   align-items: flex-end;
   overflow: hidden;
-  padding: 4rem;
+  padding-bottom: 2rem;
   border-radius: 10px;
   width: 90%;
   margin: 10% 0% 0% 0%;

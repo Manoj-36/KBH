@@ -12,16 +12,24 @@ export default function Hostels() {
       <main className="page-content">
         <div className="card">
           <div className="content">
-            <h2 className="title">Hemavathi Block</h2>
+            <h2 className="title">
+              Hemavathi
+              <br /> Block
+            </h2>
             <p className="copy">
               This block only for the 1 st year Students , PU & BSC Students
             </p>
-            <button className="btn"> View More</button>
+            <a href="/Hemavathi-block">
+              <button className="btn"> View More</button>
+            </a>
           </div>
         </div>
         <div className="card">
           <div className="content">
-            <h2 className="title">Kaveri Block</h2>
+            <h2 className="title">
+              Kaveri
+              <br /> Block
+            </h2>
             <p className="copy">
               This BLock only for 2nd, 3rd, diplomo students and others..
             </p>
@@ -30,11 +38,16 @@ export default function Hostels() {
         </div>
         <div className="card">
           <div className="content">
-            <h2 className="title">MCA Block</h2>
+            <h2 className="title">
+              MCA
+              <br /> Block
+            </h2>
             <p className="copy">
               This Block includes the Final Year, MBA & 3rd Year Students
             </p>
-            <button className="btn">View More</button>
+            <a href="/Hemavathi block">
+              <button className="btn">View More</button>
+            </a>
           </div>
         </div>
       </main>
