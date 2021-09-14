@@ -34,7 +34,7 @@
 
 .Share-grid-container {
   display: grid;
-  height: 400px;
+  height: 200px;
   align-content: center;
   grid-template-columns: auto auto auto;
   grid-gap: 10px;
@@ -46,6 +46,18 @@
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid #000;
   text-align: center;
+  height: 200px;
   padding: 2rem;
+  border-radius: 5px;
   font-size: 1rem;
+}
+.Share-info {
+  padding: 0 5% 5% 5%;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+}
+.Share-s {
+  /* color: rgb(17, 242, 46); */
+  color: crimson;
 }

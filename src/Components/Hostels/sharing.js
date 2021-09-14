@@ -27,6 +27,14 @@ export default function Sharing() {
           </p>
         </div>
       </div>
+      <div>
+        <p className="Share-info">
+          In Hemavathi Block the Room Alotment is only for the First
+          <span className="Share-s">*</span> year student and this Block also
+          have room for PU & BSC students from kalpatharu administration in
+          Tiptur
+        </p>
+      </div>
     </div>
   );
 }
