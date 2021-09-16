@@ -21,7 +21,9 @@ export default function Mess() {
         <img className="Mess-icon" src={Mi} />
       </div>
       <div className="Mess-dep">
-        <h2>Mess Committee</h2>
+        <h2 className="Mess-d-head">
+          <span className="start">|</span>Mess Committee
+        </h2>
       </div>
     </div>
   );

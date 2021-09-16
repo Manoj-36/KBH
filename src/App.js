@@ -38,6 +38,7 @@ function App() {
         <Switch>
           <Route exact path="/Mess">
             <Mess />
+            <Footer />
           </Route>
         </Switch>
       </Router>
