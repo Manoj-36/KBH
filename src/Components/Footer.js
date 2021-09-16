@@ -53,7 +53,9 @@ export default function Footer() {
           </a>
           <p>Kaveri Block</p>
           <p>MCA Block</p>
-          <p>Mess</p>
+          <a href="/Mess">
+            <p>Mess</p>
+          </a>
           <p>Mess Community</p>
         </div>
         <div>

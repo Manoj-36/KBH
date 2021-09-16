@@ -4,6 +4,7 @@ import B1img from "./img/hemavathi.jpg";
 import H2 from "./img/h2.jpg";
 import "./blocks.css";
 import "./Slid.css";
+import Nav from "../Nav";
 
 export default function Block1() {
   return (

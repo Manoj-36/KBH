@@ -107,7 +107,10 @@ body {
   display: flex;
   background-color: #191919;
 } */
-
+.Share-slid {
+  position: relative;
+  z-index: -1;
+}
 .Share-slid::before {
   content: "";
   position: absolute;

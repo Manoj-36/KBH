@@ -10,6 +10,7 @@ import Footer from "./Components/Footer";
 import Hc from "./Components/Hc";
 import Block1 from "./Components/Hostels/Block1";
 import Sharing from "./Components/Hostels/sharing";
+import Mess from "./Components/Hostels/Mess";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
@@ -32,6 +33,11 @@ function App() {
             <Block1 />
             <Sharing />
             <Footer />
+          </Route>
+        </Switch>
+        <Switch>
+          <Route exact path="/Mess">
+            <Mess />
           </Route>
         </Switch>
       </Router>
