@@ -3,11 +3,14 @@
 } */
 
 .slider {
-  width: 300px;
+  margin: 5% 0 5% 0;
+  width: 600px;
   text-align: center;
   overflow: hidden;
 }
-
+.images-head {
+  font-size: 1.3rem;
+}
 .slides {
   display: flex;
 
@@ -36,8 +39,8 @@
 .slides > div {
   scroll-snap-align: start;
   flex-shrink: 0;
-  width: 300px;
-  height: 300px;
+  width: 600px;
+  height: 400px;
   margin-right: 50px;
   border-radius: 10px;
   background: #eee;

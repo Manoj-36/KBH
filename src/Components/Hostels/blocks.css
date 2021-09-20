@@ -3,6 +3,14 @@
 
 .B1 {
   margin-top: 10%;
+  padding: 10% 0 10% 0;
+  background-repeat: no-repeat;
+  background-size: 1300px 500px;
+  background: linear-gradient(rgba(0, 0, 0, 0.438), rgba(73, 54, 54, 0.452)),
+    url("./img/h.jpg");
+
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
 }
 .B1-img {
   width: 65%;
@@ -15,12 +23,14 @@
   align-items: center;
 }
 .B1-head {
-  font-size: 2rem;
+  font-size: 3rem;
+  font-weight: 900;
+  color: #fff;
   text-align: center;
   font-family: "Montserrat", sans-serif;
 }
 .Share-head {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-family: "Montserrat", sans-serif;
 }
 .Share-img-1,

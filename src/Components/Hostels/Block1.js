@@ -13,21 +13,21 @@ export default function Block1() {
       {/* <div classNameName="B1-img-sec">
         <img classNameName="B1-img" src={B1img} />
       </div> */}
-      <div className="Share-slid">
-        <div className="carousel">
-          {/* <div className="carousel-title">my CAT carousel</div> */}
-          {/* <div className="carousel-hint">
+      {/* <div className="Share-slid">
+        <div className="carousel"> */}
+      {/* <div className="carousel-title">my CAT carousel</div> */}
+      {/* <div className="carousel-hint">
             Use arrow keys <i className="fas fa-angle-left"></i> or{" "}
             <i className="fas fa-angle-right"></i> to scroll.
           </div> */}
-          {/* <div className="carousel-num">
+      {/* <div className="carousel-num">
             <i>1</i>
             <i>2</i>
             <i>3</i>
             <i>4</i>
             <i>5</i>
           </div> */}
-          <div className="carousel-stage" id="carousel">
+      {/* <div className="carousel-stage" id="carousel">
             <div className="carousel-item">
               <div className="carousel-content">
                 <img
@@ -71,7 +71,7 @@ export default function Block1() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

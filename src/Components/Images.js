@@ -5,6 +5,9 @@ export default function Images() {
   return (
     <div className="Images">
       <div class="slider">
+        <h2 className="Images-head">
+          <span className="start">|</span>Events Images
+        </h2>
         {/* <a href="#slide-1">1</a>
         <a href="#slide-2">2</a>
         <a href="#slide-3">3</a>
