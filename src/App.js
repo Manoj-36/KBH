@@ -11,6 +11,7 @@ import Hc from "./Components/Hc";
 import Block1 from "./Components/Hostels/Block1";
 import Sharing from "./Components/Hostels/sharing";
 import Mess from "./Components/Hostels/Mess";
+import Images from "./Components/Images";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
@@ -21,10 +22,11 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Main1 />
-            <Rules />
             <Hc />
             <Hostels />
             <Facilities />
+            <Rules />
+            <Images />
             <Footer />
           </Route>
         </Switch>
