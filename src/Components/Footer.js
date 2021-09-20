@@ -68,7 +68,10 @@ export default function Footer() {
         <hr className="Fo-l" />
         <p>
           {" "}
-          © CopyRight 2021 | KIT Boys Hostel | Developed By Manoj & Sudhanva
+          © CopyRight 2021 | KIT Boys Hostel | Developed By{" "}
+          <a className="Manoj" href="https://manoj-36.github.io/portfolio/">
+            Manoj
+          </a>
         </p>
       </div>
     </div>
