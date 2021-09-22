@@ -1,5 +1,6 @@
 import React from "react";
 import Mi from "./img/mess.png";
+import Test from "./img/test.HEIC";
 
 export default function Mess() {
   return (
@@ -30,6 +31,7 @@ export default function Mess() {
         <h2 className="Mess-d-head">
           <span className="start">|</span>Mess Committee
         </h2>
+        <img src={Test} />
       </div>
     </div>
   );
