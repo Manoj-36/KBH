@@ -45,7 +45,9 @@ export default function Footer() {
           <p>About Us</p>
           <p>Contact Us</p>
           <p>Alumni </p>
-          <p>Photo Gallery</p>
+          <a href="/Photo Gallery">
+            <p>Photo Gallery</p>
+          </a>
         </div>
         <div>
           <a href="/Hemavathi-block">
