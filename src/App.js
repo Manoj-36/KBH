@@ -12,6 +12,7 @@ import Block1 from "./Components/Hostels/Block1";
 import Sharing from "./Components/Hostels/sharing";
 import Mess from "./Components/Hostels/Mess";
 import Images from "./Components/Images";
+import Messpic from "./Components/Hostels/Mess-pic";
 import Photogallery from "./Components/Photo Gallery/Photogallery";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
@@ -42,6 +43,7 @@ function App() {
         <Switch>
           <Route exact path="/Mess">
             <Mess />
+            <Messpic />
             <Footer />
           </Route>
         </Switch>

@@ -102,7 +102,7 @@ export default function Mess() {
           <span className="start1">|</span>
           <span>Premgowda</span>
           <span className="start1">|</span>
-          <span>Baratha</span>
+          <span>Prashanth</span>
         </div>
       </div>
     </div>
