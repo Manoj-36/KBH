@@ -23,6 +23,7 @@
   background-color: rgb(255, 255, 255);
   width: 150%;
   height: 65px;
+  z-index: 5;
 }
 @font-face {
   font-family: Atteron;
@@ -233,6 +234,6 @@ h1 {
 @media only screen and (max-width: 500px) {
   .BH-nav-icon {
     width: 7rem;
-    margin: 6%;
+    margin: 3%;
   }
 }
