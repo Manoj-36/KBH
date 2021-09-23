@@ -29,7 +29,7 @@ export default function Nav() {
       <nav class="main-navigation">
         <ul>
           <li>
-            <a href="#0">Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
             <a href="#0">About</a>
