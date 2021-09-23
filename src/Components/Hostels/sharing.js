@@ -8,7 +8,7 @@ export default function Sharing() {
   return (
     <div className="Share">
       <h2 className="Share-head">
-        <span className="start">|</span>Rooms avelabality
+        <span className="start">|</span>Rooms availabality
       </h2>
       <div class="Share-grid-container">
         <div>
@@ -17,13 +17,13 @@ export default function Sharing() {
           <img className="Share-img-3" src={M} />
 
           <p className="Share-r-info">
-            One,Two & There Share Rooms are there in this block
+            One,Two & There Sharing Rooms are there in this block
           </p>
         </div>
       </div>
       <div>
         <p className="Share-info">
-          In Hemavathi Block the Room Alotment is only for the First
+          In Hemavathi Block the Room Allotment is only for the First
           <span className="Share-s">*</span> year student and this Block also
           have room for PU & BSC students from kalpatharu administration in
           Tiptur

@@ -1,5 +1,6 @@
 import React from "react";
 import Mh from "../pics/mhostel.jpg";
+import Mh1 from "./Hostels/hostelpics/mh1.jpg";
 
 export default function Main1() {
   return (

@@ -14,7 +14,7 @@ export default function Mess() {
           </h2>
           <p className="Mess-info">
             Welcome to Mess department we only provied 🟢 Veg food, north and
-            south indian food is avelable
+            south indian food is availabale
           </p>
         </div>
         <img className="Mess-icon" src={Mi} />
@@ -86,10 +86,37 @@ export default function Mess() {
           <h2 className="Mess-d-head">
             <span className="start">|</span>Dividing System
           </h2>
+          <div className="Mess-ds">
+            <p>
+              <span className="start1">⟫</span>In our Hostel the working system
+              of the mess is <u>Dividing system </u>
+              which is each student gets the monthly fee amount based on ↓
+            </p>
+
+            <ul>
+              <li>Rations-vegitable's Total amount per month → (R)</li>
+              <li>
+                Electric city bill of the month will be Divided separatly → (E)
+              </li>
+              <li>Number of meals per month (3 meals per day) → (A)</li>
+              <li>Total fee per day | (individual) = (R / A) → (I)</li>
+              <li>
+                {" "}
+                So for an individual student the mess fee will be = I x NO.of
+                days present in the hostel
+              </li>
+            </ul>
+            <p>
+              <span className="start1">⟫</span>
+              So this way every student will get their mess bill pre month
+              through this system
+            </p>
+          </div>
         </div>
 
         <h2 className="Mess-d-head">
-          <span className="start">|</span>Mess Committee
+          <span className="start">|</span>Mess Committee{" "}
+          <span className="Mess-d-head1">[Changed on monthly basis]</span>
         </h2>
         <div className="Mess-c-students">
           <span>Baratha</span>
