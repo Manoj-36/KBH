@@ -32,13 +32,14 @@ export default function Nav() {
             <a href="/">Home</a>
           </li>
           <li>
-            <a href="#0">About</a>
+            <a href="/Mess">Mess</a>
           </li>
+          <li>
+            <a href="/Photo Gallery">Gallery</a>
+          </li>
+
           <li>
             <a href="#0">Contact</a>
-          </li>
-          <li>
-            <a href="#0">Dance</a>
           </li>
         </ul>
       </nav>

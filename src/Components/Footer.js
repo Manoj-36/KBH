@@ -28,7 +28,9 @@ export default function Footer() {
       </svg>
       <div class="Fo-grid-container">
         <div>
-          <img className="Fo-img" src={Icon} />
+          <a href="/">
+            <img className="Fo-img" src={Icon} />
+          </a>
           <div className="Fo-f-info">
             <p>
               Kalpatharu Boys Hostel

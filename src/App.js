@@ -35,6 +35,7 @@ function App() {
           <Route exact path="/Hemavathi-block">
             <Block1 />
             <Sharing />
+            <Facilities />
             <Footer />
           </Route>
         </Switch>
