@@ -1,5 +1,7 @@
 import React from "react";
 import Mi from "./img/mess.png";
+import F from "./img/f.png";
+import P from "./img/p.png";
 
 export default function Mess() {
   return (
@@ -18,6 +20,9 @@ export default function Mess() {
           </p>
         </div>
         <img className="Mess-icon" src={Mi} />
+      </div>
+      <div className="Mess-f1-sec">
+        <img className="Mess-f1" src={F} />
       </div>
       <div className="Mess-dep">
         <div>
@@ -119,18 +124,25 @@ export default function Mess() {
           <span className="Mess-d-head1">[Changed on monthly basis]</span>
         </h2>
         <div className="Mess-c-students">
-          <span>Baratha</span>
-          <span className="start1">|</span>
-          <span>Sharatha</span>
-          <span className="start1">|</span>
-          <span>Akhil</span>
-          <span className="start1">|</span>
-          <span>Shashank</span>
-          <span className="start1">|</span>
-          <span>Premgowda</span>
-          <span className="start1">|</span>
-          <span>Prashanth</span>
+          <div>
+            <span>Barath</span>
+            <span className="start1">|</span>
+            <span>Sharath</span>
+            <span className="start1">|</span>
+            <span>Shashank</span>
+          </div>
+          <div>
+            <span className="start1">|</span>
+            <span>Akhil</span>
+            <span className="start1">|</span>
+            <span>Premgowda</span>
+            <span className="start1">|</span>
+            <span>Prashanth</span>
+          </div>
         </div>
+      </div>
+      <div className="Mess-p-sec">
+        <img className="Mess-p" src={P} />
       </div>
     </div>
   );
