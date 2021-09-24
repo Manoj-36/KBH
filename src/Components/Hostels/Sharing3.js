@@ -24,7 +24,7 @@ export default function Sharing3() {
           <img className="Share-img-3" src={M} />
 
           <p className="Share-r-info">
-            One,Two & There Sharing Rooms are there in this block
+            One,Two and Three Sharing Rooms are three in this block
           </p>
         </div>
       </div>

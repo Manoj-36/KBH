@@ -355,10 +355,16 @@ td {
   }
   .Mess-f1 {
     width: 80%;
+    margin-bottom: -90%;
   }
   .Mess-dep {
     width: 90%;
-    margin: 0 0 0 5%;
+    margin: 0 0 0 7%;
+  }
+  .Mess-p {
+    width: 50%;
+    margin: 0 0 0 51%;
+    margin-top: -30%;
   }
   .Mess-d-head {
     font-size: 1.2rem;
