@@ -7,7 +7,7 @@ import Cctv from "../pics/facilities/cam.png";
 
 export default function Facilities() {
   return (
-    <div className="FA">
+    <div className="FA" id="FA1">
       <h2 className="FA-head">
         <span className="start">|</span>Facilities
       </h2>

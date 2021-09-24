@@ -6,7 +6,7 @@
   font-family: MADE Kenfolg;
   src: url(MADE\ Kenfolg\ PERSONAL\ USE.otf);
 }
-body {
+* {
   scroll-behavior: smooth;
 }
 .start {
@@ -398,7 +398,39 @@ body {
 .Hc-info {
   padding: 10% 15% 0 10%;
 }
+/* --------------------------contact------------------------- */
 
+.Contact {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 0 10% 0 10%;
+  margin: 10% 0 0 0;
+}
+.Contact-head {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.Contact-info {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+.Contact-info-1 {
+  margin: 0%;
+}
+.Contact-info-2 {
+  margin: 0 0% 0 10%;
+}
+.Contact-info-2 > h3 > a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 @media only screen and (max-width: 800px) {
   /* For tablets: */
 }

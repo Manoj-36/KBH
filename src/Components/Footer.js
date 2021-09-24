@@ -44,7 +44,9 @@ export default function Footer() {
           </div>
         </div>
         <div>
-          <p>Contact Us</p>
+          <a href="/Contact">
+            <p>Contact Us</p>
+          </a>
           <p>Alumni </p>
           <a href="/Photo Gallery">
             <p>Photo Gallery</p>
@@ -63,7 +65,7 @@ export default function Footer() {
           <a href="/Mess">
             <p>Mess</p>
           </a>
-          <a>Facilities</a>
+          <a href="#FA1">Facilities</a>
         </div>
         <div>
           <p>Admission</p>

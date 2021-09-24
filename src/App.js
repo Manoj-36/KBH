@@ -1,3 +1,4 @@
+import React, { Component } from "react";
 import "./Components/Style.css";
 import Main from "./Components/Main";
 import Nav from "./Components/Nav";
@@ -18,6 +19,7 @@ import Block2 from "./Components/Hostels/Block2";
 import Block3 from "./Components/Hostels/Block3";
 import Sharing3 from "./Components/Hostels/Sharing3";
 import Photogallery from "./Components/Photo Gallery/Photogallery";
+import Contact from "./Components/Contact";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
@@ -70,6 +72,11 @@ function App() {
         <Switch>
           <Route exact path="/Photo Gallery">
             <Photogallery />
+          </Route>
+        </Switch>
+        <Switch>
+          <Route exact path="/Contact">
+            <Contact />
           </Route>
         </Switch>
       </Router>
