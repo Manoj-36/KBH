@@ -11,6 +11,8 @@
 
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
+  border-radius: 20px;
+  margin: 10% 5% 5% 5%;
 }
 .B1-img {
   width: 65%;
@@ -57,7 +59,7 @@
   border: 1px solid #000;
   border-radius: 10px;
   padding: 10px;
-  margin: 0 10% 0 10%;
+  margin: 0 30% 0 30%;
 }
 
 .Share-grid-container > div {
@@ -80,7 +82,7 @@
 } */
 .Share-r-info {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .Share-info {
@@ -92,6 +94,37 @@
 .Share-s {
   /* color: rgb(17, 242, 46); */
   color: crimson;
+}
+
+.Share-grid2-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 1%;
+  background-color: #fff;
+  padding: 0 5% 0 5%;
+}
+@media (max-width: 600px) {
+  .Share-grid2-container {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 3%;
+  }
+}
+@media (min-width: 800px) {
+  .Share-grid2-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.Share-grid2-container > div {
+  background-color: #fff;
+  /* border: 2px solid rgb(97, 241, 97); */
+  text-align: center;
+  margin: 3%;
+  border-radius: 10px;
+}
+.Share-grid2-container > div > img {
+  width: 100%;
+  border-radius: 10px;
 }
 
 /* -------------------------------Mess department------------------------- */
@@ -128,7 +161,7 @@
   font-family: "Montserrat", sans-serif;
   font-size: 0.9rem;
   padding: 0 10% 0 11%;
-  color: rgb(155, 154, 153);
+  color: rgb(75, 74, 74);
 }
 .Mess-f1 {
   width: 60%;
@@ -249,10 +282,13 @@ td {
   .B1 {
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    margin-bottom: 10%;
+    margin: 25% 5% 10% 5%;
   }
   .B1-head {
     font-size: 2rem;
+  }
+  .Share-info {
+    font-size: 1rem;
   }
   .Share-r-info {
     font-size: 1rem;

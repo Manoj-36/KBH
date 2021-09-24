@@ -171,7 +171,8 @@ body {
 }
 @media (max-width: 600px) {
   .FA-grid-container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    padding: 3%;
   }
 }
 @media (min-width: 800px) {

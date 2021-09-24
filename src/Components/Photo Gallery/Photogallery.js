@@ -9,40 +9,38 @@ import I6 from "./img/6.jpeg";
 
 export default function Photogallery() {
   return (
-    <div>
-      <div className="row">
-        <div className="column">
+    <div className="PhotoG">
+      <h1></h1>
+      <div class="PhotoG-grid-container">
+        <div class="PhotoG-grid-item PG-item1">
           <img src={I1} />
+        </div>
+        <div class="PhotoG-grid-item PG-item2">
           <img src={I2} />
+        </div>
+        <div class="PhotoG-grid-item PG-item3">
+          {" "}
           <img src={I3} />
+        </div>
+        <div class="PhotoG-grid-item PG-item4">
+          {" "}
           <img src={I4} />
+        </div>
+        <div class="PhotoG-grid-item PG-item5">
+          {" "}
           <img src={I5} />
+        </div>
+        <div class="PhotoG-grid-item PG-item6">
+          {" "}
           <img src={I6} />
         </div>
-        <div className="column">
+        <div class="PhotoG-grid-item PG-item7">
+          {" "}
           <img src={I1} />
-          <img src={I2} />
-          <img src={I3} />
-          <img src={I4} />
-          <img src={I5} />
-          <img src={I6} />
         </div>
-        <div className="column">
-          <img src="/w3images/wedding.jpg" />
-          <img src="/w3images/rocks.jpg" />
-          <img src="/w3images/falls2.jpg" />
-          <img src="/w3images/paris.jpg" />
-          <img src="/w3images/nature.jpg" />
-          <img src="/w3images/mist.jpg" />
-          <img src="/w3images/paris.jpg" />
-        </div>
-        <div className="column">
-          <img src="/w3images/underwater.jpg" />
-          <img src="/w3images/ocean.jpg" />
-          <img src="/w3images/wedding.jpg" />
-          <img src="/w3images/mountainskies.jpg" />
-          <img src="/w3images/rocks.jpg" />
-          <img src="/w3images/underwater.jpg" />
+        <div class="PhotoG-grid-item PG-item8">
+          {" "}
+          <img src={I1} />
         </div>
       </div>
     </div>
