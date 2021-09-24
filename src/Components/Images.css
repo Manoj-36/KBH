@@ -1,7 +1,10 @@
 /* * {
   box-sizing: border-box;
 } */
-
+video {
+  width: 100%;
+  height: auto;
+}
 .slider {
   margin: 5% 0 5% 0;
   width: 800px;

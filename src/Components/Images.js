@@ -3,7 +3,8 @@ import "./Images.css";
 import Kh from "../Components/Hostels/img/kh.jpeg";
 import Gpic from "./Hostels/img/gpic.jpeg";
 import Hostelday from "./Hostels/img/hostelday.jpeg";
-import G3 from "./Hostels/img/g3.mp4";
+import G3 from "./Hostels/img/g2.mp4";
+import G4 from "../Components/Hostels/img/gdance.mp4";
 
 export default function Images() {
   return (
@@ -29,9 +30,19 @@ export default function Images() {
             <img className="Images-slid-img" src={Hostelday} />
           </div>
           <div id="slide-4">
-            <img src={G3} />
+            <video width="400" controls>
+              <source src={G4} type="video/mp4" />
+              <source src={G4} type="video/ogg" />
+              Your browser does not support HTML5 video.
+            </video>
           </div>
-          <div id="slide-5">5</div>
+          <div id="slide-5">
+            <video width="400" controls>
+              <source src={G3} type="video/mp4" />
+              <source src={G3} type="video/ogg" />
+              Your browser does not support HTML5 video.
+            </video>
+          </div>
         </div>
       </div>
     </div>

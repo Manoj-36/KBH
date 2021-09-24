@@ -351,7 +351,7 @@ body {
 
 /* ------------------------------------------Hostel community----------- */
 .Hc {
-  padding: 2%;
+  padding: 0 1% 0 1%;
   display: flex;
 }
 .Hc-head {
@@ -364,14 +364,14 @@ body {
   width: 80%;
   border: 1px solid #000;
 }
-.Hc-img:hover {
+/* .Hc-img:hover {
   -moz-transform: scale(1.5) translate(-200px, 0px);
   -webkit-transform: scale(1.5) translate(-200px, 0px);
   -o-transform: scale(1.5) translate(-200px, 0px);
   -ms-transform: scale(1.5) translate(-200px, 0px);
   transform: scale(1.5) translate(-200px, 0px);
   transition: 1s;
-}
+} */
 .Hc-ib {
   margin: 0 0 10% 10%;
   margin-top: -60%;

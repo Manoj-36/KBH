@@ -12,7 +12,11 @@ import Block1 from "./Components/Hostels/Block1";
 import Sharing from "./Components/Hostels/sharing";
 import Mess from "./Components/Hostels/Mess";
 import Images from "./Components/Images";
+import Sharing2 from "./Components/Hostels/Sharing2";
 import Messpic from "./Components/Hostels/Mess-pic";
+import Block2 from "./Components/Hostels/Block2";
+import Block3 from "./Components/Hostels/Block3";
+import Sharing3 from "./Components/Hostels/Sharing3";
 import Photogallery from "./Components/Photo Gallery/Photogallery";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
@@ -36,6 +40,22 @@ function App() {
           <Route exact path="/Hemavathi-block">
             <Block1 />
             <Sharing />
+            <Facilities />
+            <Footer />
+          </Route>
+        </Switch>
+        <Switch>
+          <Route exact path="/Kaveri-block">
+            <Block2 />
+            <Sharing2 />
+            <Facilities />
+            <Footer />
+          </Route>
+        </Switch>
+        <Switch>
+          <Route exact path="/MCA-block">
+            <Block3 />
+            <Sharing3 />
             <Facilities />
             <Footer />
           </Route>

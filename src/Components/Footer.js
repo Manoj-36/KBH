@@ -44,7 +44,6 @@ export default function Footer() {
           </div>
         </div>
         <div>
-          <p>About Us</p>
           <p>Contact Us</p>
           <p>Alumni </p>
           <a href="/Photo Gallery">
@@ -55,12 +54,16 @@ export default function Footer() {
           <a href="/Hemavathi-block">
             <p>Hemavathi Block</p>
           </a>
-          <p>Kaveri Block</p>
-          <p>MCA Block</p>
+          <a href="/kaveri-block">
+            <p>Kaveri Block</p>
+          </a>
+          <a href="/MCA-block">
+            <p>MCA Block</p>
+          </a>
           <a href="/Mess">
             <p>Mess</p>
           </a>
-          <p>Mess Community</p>
+          <a>Facilities</a>
         </div>
         <div>
           <p>Admission</p>

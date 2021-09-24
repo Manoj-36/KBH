@@ -3,15 +3,15 @@ import "./blocks.css";
 import S from "./img/single.png";
 import D from "./img/double.png";
 import M from "./img/multi.png";
-import H1 from "./hostelpics/2.jpg";
-import H2 from "./hostelpics/4.jpg";
-import H3 from "./hostelpics/6.jpg";
-import H4 from "./hostelpics/11.jpg";
-import H5 from "./hostelpics/14.jpg";
-import H6 from "./hostelpics/16.jpg";
-import H7 from "./hostelpics/32.jpg";
+import MCA1 from "./hostelpics/22.jpg";
+import MCA2 from "./hostelpics/36.jpg";
+import MCA3 from "./hostelpics/34.jpg";
+import MCA4 from "./hostelpics/38.jpg";
+import MCA5 from "./hostelpics/39.jpg";
+import MCA6 from "./hostelpics/37.jpg";
+import MCA7 from "./hostelpics/30.jpg";
 
-export default function Sharing() {
+export default function Sharing3() {
   return (
     <div className="Share">
       <h2 className="Share-head">
@@ -30,33 +30,31 @@ export default function Sharing() {
       </div>
       <div>
         <p className="Share-info">
-          In Hemavathi Block the Room Allotment is only for the First
-          <span className="Share-s">*</span> year student and this Block also
-          have room for PU & BSC students from kalpatharu administration in
-          Tiptur
+          In MCA Block the Room Allotment is only for the final years & MBA
+          student and this Block also have Mess in the ground floor
         </p>
       </div>
       <div class="Share-grid2-container">
         <div>
-          <img src={H1} alt="Hemavathi hostel" />
+          <img src={MCA1} alt="Hemavathi hostel" />
         </div>
         <div>
-          <img src={H7} alt="Room" />
+          <img src={MCA5} alt="Room" />
         </div>
         <div>
-          <img src={H3} alt="Wifi & cctv" />
+          <img src={MCA3} alt="Wifi & cctv" />
         </div>
         <div>
-          <img src={H4} alt="cctv" />
+          <img src={MCA7} alt="cctv" />
         </div>
         <div>
-          <img src={H5} lat="Basket ball court" />
+          <img src={MCA6} lat="Basket ball court" />
         </div>
         <div>
-          <img src={H6} alt="tenis court" />
+          <img src={MCA4} alt="tenis court" />
         </div>
         <div>
-          <img src={H2} alt="Floor" />
+          <img src={MCA2} alt="Floor" />
         </div>
       </div>
     </div>

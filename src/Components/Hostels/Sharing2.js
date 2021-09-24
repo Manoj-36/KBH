@@ -3,15 +3,15 @@ import "./blocks.css";
 import S from "./img/single.png";
 import D from "./img/double.png";
 import M from "./img/multi.png";
-import H1 from "./hostelpics/2.jpg";
-import H2 from "./hostelpics/4.jpg";
-import H3 from "./hostelpics/6.jpg";
-import H4 from "./hostelpics/11.jpg";
-import H5 from "./hostelpics/14.jpg";
-import H6 from "./hostelpics/16.jpg";
-import H7 from "./hostelpics/32.jpg";
+import K1 from "./hostelpics/26.jpg";
+import K2 from "./hostelpics/28.jpg";
+import K3 from "./hostelpics/34.jpg";
+import K4 from "./hostelpics/4.jpg";
+import K5 from "./hostelpics/39.jpg";
+import K6 from "./hostelpics/37.jpg";
+import K7 from "./hostelpics/19.jpg";
 
-export default function Sharing() {
+export default function Sharing2() {
   return (
     <div className="Share">
       <h2 className="Share-head">
@@ -30,33 +30,31 @@ export default function Sharing() {
       </div>
       <div>
         <p className="Share-info">
-          In Hemavathi Block the Room Allotment is only for the First
-          <span className="Share-s">*</span> year student and this Block also
-          have room for PU & BSC students from kalpatharu administration in
-          Tiptur
+          In Kaveri Block the Room Allotment is only for the 2nd & 3rd year
+          student and this Block also have room for other staffs and workers
         </p>
       </div>
       <div class="Share-grid2-container">
         <div>
-          <img src={H1} alt="Hemavathi hostel" />
+          <img src={K1} alt="Hemavathi hostel" />
         </div>
         <div>
-          <img src={H7} alt="Room" />
+          <img src={K5} alt="Room" />
         </div>
         <div>
-          <img src={H3} alt="Wifi & cctv" />
+          <img src={K3} alt="Wifi & cctv" />
         </div>
         <div>
-          <img src={H4} alt="cctv" />
+          <img src={K7} alt="cctv" />
         </div>
         <div>
-          <img src={H5} lat="Basket ball court" />
+          <img src={K6} lat="Basket ball court" />
         </div>
         <div>
-          <img src={H6} alt="tenis court" />
+          <img src={K4} alt="tenis court" />
         </div>
         <div>
-          <img src={H2} alt="Floor" />
+          <img src={K2} alt="Floor" />
         </div>
       </div>
     </div>

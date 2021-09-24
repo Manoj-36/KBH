@@ -33,7 +33,9 @@ export default function Hostels() {
             <p className="copy">
               This BLock only for 2nd, 3rd, diplomo students and others..
             </p>
-            <button className="btn">View More</button>
+            <a href="/Kaveri-block">
+              <button className="btn">View More</button>
+            </a>
           </div>
         </div>
         <div className="card">
@@ -46,7 +48,9 @@ export default function Hostels() {
               This Block includes the Final Year, MBA & 3rd Year Students
             </p>
             <a href="/Hemavathi block">
-              <button className="btn">View More</button>
+              <a href="/MCA-block">
+                <button className="btn">View More</button>
+              </a>
             </a>
           </div>
         </div>
