@@ -29,22 +29,22 @@ export default function Nav() {
       <nav class="main-navigation">
         <ul>
           <li>
-            <a href="/">Home</a>
+            <a href="/KBH">Home</a>
           </li>
           <li>
-            <a href="/Mess">Mess</a>
+            <a href="/KBH/Mess">Mess</a>
           </li>
           <li>
-            <a href="/Photo Gallery">Gallery</a>
+            <a href="/KBH/Photo Gallery">Gallery</a>
           </li>
 
           <li>
-            <a href="/Contact">Contact</a>
+            <a href="/KBH/Contact">Contact</a>
           </li>
         </ul>
       </nav>
       <div className="BH-nva-sec">
-        <a href="/">
+        <a href="/KBH">
           <img className="BH-nav-icon" src={Icon} />
         </a>
       </div>

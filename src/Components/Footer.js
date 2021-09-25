@@ -28,7 +28,7 @@ export default function Footer() {
       </svg>
       <div class="Fo-grid-container">
         <div>
-          <a href="/">
+          <a href="/KBH">
             <img className="Fo-img" src={Icon} />
           </a>
           <div className="Fo-f-info">
@@ -44,25 +44,25 @@ export default function Footer() {
           </div>
         </div>
         <div>
-          <a href="/Contact">
+          <a href="/KBH/Contact">
             <p>Contact Us</p>
           </a>
           <p>Alumni </p>
-          <a href="/Photo Gallery">
+          <a href="/KBH/Photo Gallery">
             <p>Photo Gallery</p>
           </a>
         </div>
         <div>
-          <a href="/Hemavathi-block">
+          <a href="/KBH/Hemavathi-block">
             <p>Hemavathi Block</p>
           </a>
-          <a href="/kaveri-block">
+          <a href="/KBH/kaveri-block">
             <p>Kaveri Block</p>
           </a>
-          <a href="/MCA-block">
+          <a href="/KBH/MCA-block">
             <p>MCA Block</p>
           </a>
-          <a href="/Mess">
+          <a href="/KBH/Mess">
             <p>Mess</p>
           </a>
           <a href="#FA1">Facilities</a>

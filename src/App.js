@@ -31,7 +31,7 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 50000);
+    }, 5000);
   }, []);
   return (
     <div>
@@ -48,7 +48,7 @@ function App() {
           <Nav />
           <Router>
             <Switch>
-              <Route exact path="/">
+              <Route exact path="/KBH">
                 <Main1 />
                 <Hc />
                 <Hostels />
@@ -59,7 +59,7 @@ function App() {
               </Route>
             </Switch>
             <Switch>
-              <Route exact path="/Hemavathi-block">
+              <Route exact path="/KBH/Hemavathi-block">
                 <Block1 />
                 <Sharing />
                 <Facilities />
@@ -67,7 +67,7 @@ function App() {
               </Route>
             </Switch>
             <Switch>
-              <Route exact path="/Kaveri-block">
+              <Route exact path="/KBH/Kaveri-block">
                 <Block2 />
                 <Sharing2 />
                 <Facilities />
@@ -75,7 +75,7 @@ function App() {
               </Route>
             </Switch>
             <Switch>
-              <Route exact path="/MCA-block">
+              <Route exact path="/KBH/MCA-block">
                 <Block3 />
                 <Sharing3 />
                 <Facilities />
@@ -83,24 +83,24 @@ function App() {
               </Route>
             </Switch>
             <Switch>
-              <Route exact path="/Mess">
+              <Route exact path="/KBH/Mess">
                 <Mess />
                 <Messpic />
                 <Footer />
               </Route>
             </Switch>
             <Switch>
-              <Route exact path="/Photo Gallery">
+              <Route exact path="/KBH/Photo Gallery">
                 <Photogallery />
               </Route>
             </Switch>
             <Switch>
-              <Route exact path="/Contact">
+              <Route exact path="/KBH/Contact">
                 <Contact />
               </Route>
             </Switch>
             <Switch>
-              <Route exact path="/Ffacilities">
+              <Route exact path="/KBH/Ffacilities">
                 <Ffacilities />
                 <Footer />
               </Route>
