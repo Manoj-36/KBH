@@ -39,7 +39,7 @@ export default function Nav() {
           </li>
 
           <li>
-            <a href="#0">Contact</a>
+            <a href="/Contact">Contact</a>
           </li>
         </ul>
       </nav>

@@ -36,7 +36,9 @@ export default function Facilities() {
           <p className="FA-F-info">Hostel under CCTV servelence</p>
         </div>
 
-        <p className="FA-i6">More >></p>
+        <a className="FA-link" href="/Ffacilities">
+          <p className="FA-i6">More →</p>
+        </a>
       </div>
     </div>
   );

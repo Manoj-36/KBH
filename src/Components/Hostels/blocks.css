@@ -283,7 +283,13 @@ td {
   width: 100%;
   border-radius: 10px;
 }
-
+.FF-head {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+}
+.FF {
+  margin: 10% 0 10% 0;
+}
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
@@ -400,5 +406,13 @@ td {
   }
   .Messpic {
     margin: 10% 0 0 0;
+  }
+  /* ------------------ */
+  .FF-head {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.3rem;
+  }
+  .FF {
+    margin: 25% 0 10% 0;
   }
 }

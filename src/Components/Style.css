@@ -2,13 +2,52 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
-@font-face {
-  font-family: MADE Kenfolg;
-  src: url(MADE\ Kenfolg\ PERSONAL\ USE.otf);
-}
+@import url("https://fonts.googleapis.com/css2?family=Teko&display=swap");
+
 * {
   scroll-behavior: smooth;
 }
+.load {
+  background-color: black;
+}
+.load-icon {
+  background-color: #000;
+}
+.load-img {
+  margin-top: -70%;
+}
+.load-name {
+  margin-top: -85%;
+  margin-bottom: -10%;
+  text-align: center;
+  font-family: "Teko", sans-serif;
+  font-size: 5rem;
+  color: #f2b100;
+}
+.load-info {
+  margin-left: 35%;
+  font-family: "Teko", sans-serif;
+  font-size: 1rem;
+  width: 30%;
+  background-color: black;
+  border: 2px solid #f2b100;
+  color: #f2b100;
+  margin-bottom: 5%;
+}
+/* .load-grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 10px;
+  background-color: #070707;
+  padding: 10px;
+}
+
+.load-grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+} */
 .start {
   padding: 0 1% 0 1%;
   font-family: "Montserrat", sans-serif;
@@ -234,7 +273,15 @@
   padding: 5%;
   font-size: 1.2vw;
 }
+.FA-link {
+  text-decoration: none;
+  color: rgb(59, 59, 255);
+}
 /* ------------------------------------------------------main 1-------- */
+@font-face {
+  font-family: MADE Kenfolg;
+  src: url(MADE\ Kenfolg\ PERSONAL\ USE.otf);
+}
 .M {
   display: flex;
   margin: 10% 0 10% 0;
