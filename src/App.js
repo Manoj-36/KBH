@@ -22,6 +22,7 @@ import Photogallery from "./Components/Photo Gallery/Photogallery";
 import Contact from "./Components/Contact";
 import Ffacilities from "./Components/Hostels/Ffacilities";
 import PUBG from "./pics/pubg.gif";
+import Hostelcommittee from "./Components/Hostelcommittee";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
@@ -31,7 +32,7 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 5000);
+    }, 10);
   }, []);
   return (
     <div>
@@ -103,6 +104,11 @@ function App() {
               <Route exact path="/KBH/Ffacilities">
                 <Ffacilities />
                 <Footer />
+              </Route>
+            </Switch>
+            <Switch>
+              <Route exact path="/Hostel Committe">
+                <Hostelcommittee />
               </Route>
             </Switch>
           </Router>

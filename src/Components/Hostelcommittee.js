@@ -1,0 +1,35 @@
+import React from "react";
+
+export default function Hostelcommittee() {
+  return (
+    <div className="HostelCommittee">
+      <h2 className="Hostelc-head">Hostel Committee </h2>
+      <p>
+        Objective: To provide clean, safe and comfortable accommodation
+        effectively and efficiently to the students{" "}
+      </p>
+      <table>
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Age</th>
+        </tr>
+        <tr>
+          <td>Jill</td>
+          <td>Smith</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>94</td>
+        </tr>
+        <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>80</td>
+        </tr>
+      </table>
+    </div>
+  );
+}

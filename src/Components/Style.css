@@ -333,6 +333,7 @@
   background-color: rgb(125, 248, 125);
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
+  font-weight: 600;
   color: rgb(44, 44, 44);
   border: none;
 }
@@ -444,6 +445,39 @@
 }
 .Hc-info {
   padding: 10% 15% 0 10%;
+  font-family: "Montserrat", sans-serif;
+}
+.Hc-msg {
+  display: flex;
+  flex-direction: row;
+}
+.Hc-msg-icon1 {
+  width: 7%;
+}
+.Hc-msg-icon2 {
+  width: 10%;
+}
+.Hc-m-p {
+  font-family: "Montserrat", sans-serif;
+  padding: 0 10% 0 10%;
+}
+.Hc-btn {
+  font-family: "Montserrat", sans-serif;
+  background: rgb(163, 243, 143);
+  border: none;
+  width: 10%;
+  color: #000;
+  font-weight: 500;
+  height: 35px;
+  border-radius: 5px;
+  margin: 2% 0 0 5%;
+  cursor: pointer;
+}
+.Hc-btn:hover {
+  background: rgb(129, 236, 102);
+}
+.HostelCommittee {
+  background-color: darkgrey;
 }
 /* --------------------------contact------------------------- */
 

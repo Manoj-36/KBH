@@ -112,7 +112,7 @@ h1 {
   z-index: -1;
 }
 .main-navigation ul {
-  font-size: 12vmin;
+  font-size: 2rem;
   font-family: "Montserrat", sans-serif;
   /* font-family: var(--font-heading); */
   width: 100%;
