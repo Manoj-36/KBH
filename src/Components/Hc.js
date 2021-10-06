@@ -43,7 +43,7 @@ export default function Hc() {
           </p>
         </div>
       </div>
-      <a href="/Hostel Committe">
+      <a href="/KBH/Hostel Committe">
         <button className="Hc-btn">Know More</button>
       </a>
     </div>

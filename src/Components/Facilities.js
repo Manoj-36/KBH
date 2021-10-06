@@ -1,9 +1,9 @@
 import React from "react";
-import Wifi from "../pics/facilities/wifi1.gif";
-import Finger1 from "../pics/facilities/finger123.gif";
-import Washing from "../pics/facilities/washing1.gif";
-import Hotw from "../pics/facilities/hotwater.png";
-import Cctv from "../pics/facilities/cam.png";
+import Wifi from "../pics/facilities/wf.svg";
+import Finger1 from "../pics/facilities/fp.svg";
+import Washing from "../pics/facilities/wm.svg";
+import Hotw from "../pics/facilities/hw.svg";
+import Cctv from "../pics/facilities/cctv.svg";
 
 export default function Facilities() {
   return (

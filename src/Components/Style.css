@@ -222,7 +222,7 @@
 
 .FA-grid-container > div {
   background-color: #fff;
-  border: 2px solid rgb(97, 241, 97);
+  border: 1px solid rgb(0, 0, 0);
   text-align: center;
   margin: 3%;
   border-radius: 10px;
@@ -253,18 +253,19 @@
   width: 25%;
 }
 .FA-F-icons-finger {
-  /* margin: 15% 10% 010%; */
-  width: 50%;
+  margin: 8% 0 10% 0;
+  width: 25%;
 }
 .FA-F-icons-washing {
-  width: 55%;
+  margin: 8% 0 10% 0;
+  width: 25%;
 }
 .FA-F-icons-hotw {
   width: 25%;
-  margin: 15% 0 2% 0;
+  margin: 8% 0 10% 0;
 }
 .FA-F-icons-cctv {
-  margin-top: 5%;
+  margin: 8% 0 10% 0;
   width: 15%;
 }
 .FA-F-info {
@@ -335,7 +336,7 @@
   font-size: 1rem;
   font-weight: 600;
   color: rgb(44, 44, 44);
-  border: none;
+  border: 2px solid rgb(125, 248, 125);
 }
 /* .M-btn:hover {
   -moz-transform: scale(2);
@@ -409,6 +410,7 @@
   border-left: #130901;
 }
 .Manoj {
+  color: #000;
   text-decoration: none;
 }
 
@@ -477,7 +479,22 @@
   background: rgb(129, 236, 102);
 }
 .HostelCommittee {
-  background-color: darkgrey;
+  font-family: "Montserrat", sans-serif;
+  padding: 0 4% 4% 4%;
+  margin: 5% 0 0 0;
+}
+.Hostelc-head {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.Hostelc-b {
+  color: crimson;
+  text-align: center;
+}
+.HostelCommittee > p {
+  text-align: center;
+  margin: 3%;
 }
 /* --------------------------contact------------------------- */
 

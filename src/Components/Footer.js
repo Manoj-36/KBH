@@ -65,9 +65,12 @@ export default function Footer() {
           <a href="/KBH/Mess">
             <p>Mess</p>
           </a>
-          <a href="#FA1">Facilities</a>
+          <a href="/KBH/Ffacilities">Facilities</a>
         </div>
         <div>
+          <a href="/KBH/Hostel Committe">
+            <p>Hostel Committe</p>
+          </a>
           <p>Admission</p>
           <p>Events</p>
           <p>Placement Info.</p>

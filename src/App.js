@@ -107,8 +107,9 @@ function App() {
               </Route>
             </Switch>
             <Switch>
-              <Route exact path="/Hostel Committe">
+              <Route exact path="/KBH/Hostel Committe">
                 <Hostelcommittee />
+                <Footer />
               </Route>
             </Switch>
           </Router>
