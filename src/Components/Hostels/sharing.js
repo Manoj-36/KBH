@@ -1,8 +1,8 @@
 import React from "react";
 import "./blocks.css";
-import S from "./img/single.png";
-import D from "./img/double.png";
-import M from "./img/multi.png";
+import S from "./img/1.svg";
+import D from "./img/2.svg";
+import M from "./img/3.svg";
 import H1 from "./hostelpics/2.jpg";
 import H2 from "./hostelpics/4.jpg";
 import H3 from "./hostelpics/6.jpg";

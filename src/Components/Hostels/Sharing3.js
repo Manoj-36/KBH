@@ -1,8 +1,8 @@
 import React from "react";
 import "./blocks.css";
-import S from "./img/single.png";
-import D from "./img/double.png";
-import M from "./img/multi.png";
+import S from "./img/1.svg";
+import D from "./img/2.svg";
+import M from "./img/3.svg";
 import MCA1 from "./hostelpics/22.jpg";
 import MCA2 from "./hostelpics/36.jpg";
 import MCA3 from "./hostelpics/34.jpg";
