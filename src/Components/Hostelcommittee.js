@@ -1,9 +1,31 @@
 import React from "react";
+import P1 from "../pics/Basavaraju.jpeg";
+import P2 from "../pics/Thipperudrappa.jpeg";
+import P3 from "../pics/Jagadeeshamurthy.jpeg";
 
 export default function Hostelcommittee() {
   return (
     <div className="HostelCommittee">
       <h2 className="Hostelc-head">Hostel Committee </h2>
+      <div className="Hostelc-p1-1">
+        <img className="Hostelc-p1" src={P2} />
+        <p>Thipperudrappa</p>
+      </div>
+
+      <div className="Hostelc-pics">
+        <div>
+          <img className="Hostelc-p2" src={P1} />
+          <p>
+            Basavaraju
+            <br /> [vice president]
+          </p>
+        </div>
+        <div>
+          <img className="Hostelc-p3" src={P3} />
+          <p>Jagadeeshamurthy</p>
+        </div>
+      </div>
+
       <p className="Hostelc-b">
         Objective: To provide clean, safe and comfortable accommodation
         effectively and efficiently to the students{" "}
