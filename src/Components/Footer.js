@@ -85,6 +85,7 @@ export default function Footer() {
           <a className="Manoj" href="https://manoj-36.github.io/portfolio/">
             Manoj
           </a>
+          & Sudhanva
         </p>
       </div>
     </div>

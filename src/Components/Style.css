@@ -679,7 +679,8 @@
     font-size: 1rem;
   }
   .FA-F-icons-washing {
-    width: 95%;
+    width: 40%;
+    margin: 20% 0 10% 0;
   }
   .FA-F-icons-hotw {
     width: 35%;
@@ -690,7 +691,7 @@
     margin-bottom: 10%;
   }
   .FA-F-icons-finger {
-    width: 65%;
+    width: 45%;
   }
   .FA-F-icons-wifi {
     width: 40%;
@@ -733,5 +734,28 @@
   }
   .Hc-info {
     padding: 5%;
+  }
+  .Hc-msg-icon1 {
+    width: 15%;
+  }
+  .Hc-msg-icon2 {
+    width: 25%;
+  }
+  .Hc-m-p {
+    font-size: 0.7rem;
+    font-family: "Montserrat", sans-serif;
+    padding: 0 5% 0 5%;
+  }
+  .Hc-btn {
+    font-family: "Montserrat", sans-serif;
+    background: rgb(163, 243, 143);
+    border: none;
+    width: 30%;
+    color: #000;
+    font-weight: 500;
+    height: 35px;
+    border-radius: 5px;
+    margin: 5% 0 0 5%;
+    cursor: pointer;
   }
 }
