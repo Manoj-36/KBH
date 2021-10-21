@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Icon from "../pics/icon2.gif";
 
 export default function Footer() {

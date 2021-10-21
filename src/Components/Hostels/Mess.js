@@ -2,10 +2,12 @@ import React from "react";
 import Mi from "./img/mess.png";
 import F from "./img/f.png";
 import P from "./img/p.png";
+import Messpic from "./Mess-pic";
+import Footer from "../Footer";
 
 export default function Mess() {
   return (
-    <div className="Mess">
+    <div className="Mess" id="Mess">
       <div className="Mess-h-sec">
         <div className="Mess-head-sec">
           <h2 className="Mess-head">
@@ -144,6 +146,8 @@ export default function Mess() {
       <div className="Mess-p-sec">
         <img className="Mess-p" src={P} />
       </div>
+      <Messpic />
+      <Footer />
     </div>
   );
 }

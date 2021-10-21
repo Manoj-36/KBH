@@ -86,8 +86,6 @@ function App() {
             <Switch>
               <Route exact path="/KBH/Mess">
                 <Mess />
-                <Messpic />
-                <Footer />
               </Route>
             </Switch>
             <Switch>
